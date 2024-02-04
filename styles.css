@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background: whitesmoke;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    height:80px;
+    width:100%;
+}
+
+#myphoto{
+  height:450px;
+  width:300px;
+  border:7px solid black;
+}
+.aboutblocks{
+  width:50%;
+  float: left;
+  padding: 20px;
+}
+#text{
+  text-align: center;
+}
+.aboutdescription{
+  font-family: Arial, Helvetica, sans-serif;
+}
+label.logo{
+    font-size: 33px;
+    line-height: 80px;
+    padding: 50px 25px 0px 25px;
+    font-weight: bold;
+}
+a.logo{
+    line-height: 80px;
+    padding: 50px 0px 0px 50px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    background: none;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:black;
+    font-size:17px;
+    padding: 7px 13px;
+}
+#searchtext{
+    color:black;
+    font-size: 17px;
+    display: none;
+}
+nav ul li a:hover{
+    color:rgb(148, 148, 148);
+}
+.checkbutton{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.background{
+  margin:25px;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+div.about{
+    background-image: url(Untitled\ design\ \(1\).png);
+    height: 450px;
+    width: 1460px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 25px; 
+  }
+  div.written{
+    height: 450px;
+    width: 900px;
+    background-color: rgb(54, 54, 54);
+    border-radius:25px 50px 0px 25px;
+  }
+  div.container{
+    background-image: url(Untitled\ design\ \(1\).png);
+    height: 800px;
+    width: 90%;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 25px;
+    display: none;
+  } 
+  div.smallertext{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+    padding: 50px;
+    display: none;
+  }
+
+  h1.description{
+    padding: 14px;
+    display: inline-block;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+  }
+  h1.sdescription{
+    padding: 14px;
+    display: inline-block;
+    font-size: 40px;
+    margin-top: 30px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+  } 
+  p.description{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-left:50px;
+    background-color: rgb(54, 54, 54);
+  }
+  p.sdescription{
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(54, 54, 54);
+  }
+  h1.pages{
+    margin-left: 40px;
+    margin-bottom: 60px;
+    font-size: 35px;
+  }
+  h1.guides{
+    font-size: 30px;
+    text-align: center;
+  }
+  h1.ourfeatures{
+    text-align: center;
+    font-size: 40px;
+  }
+  .column {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    height: 300px;
+    margin:30px 75px 50px 75px;
+    text-align: center;
+    background-color: rgb(141, 141, 141);
+    border:10px double;
+    border-radius: 30px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h3.feature{
+    font-size: 22px;
+    background-color: rgb(141, 141, 141);
+  }
+  p.feature{
+    font-size: 18px;
+    background-color: rgb(141, 141, 141);
+    color: rgb(36, 36, 36);
+  }
+
+  a.feature{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 12px 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 15px auto;
+    background-color: rgb(69, 69, 70);
+    font-size: 18px;
+    float: none;
+  }
+  a.feature:hover{
+    background-color: rgb(110, 110, 110);
+  }
+  .option {
+    display: -webkit-flex;
+    display: flex;
+  }
+
+  .optionlinks {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 100px;
+    margin-top: 100px; 
+    text-align:center;
+  }
+
+  .optionlinks a{
+    width:175px;
+    height: 2rem;
+    padding: 20px 10px;
+    font-size: 25px ;
+    font-weight: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  .optionlinks a:hover{
+    color:rgb(148, 148, 148);
+  }
+  .topic:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .topiclinks {
+    float: left;
+    width: 50%; 
+    flex: 1;
+    padding: 0 10px;
+  }
+  .topiclinks a{
+    float: left;
+    margin-left: 100px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+  }
+  .topiclinks a:hover{
+    text-decoration: underline;
+    color: rgb(80, 80, 80);
+  }
+  .topiclinks h2{
+    margin-left: 50px;
+  }
+  .guideinfo p{
+    margin: 20px 40px 40px 40px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .guideinfo h2{
+    margin: 20px 40px 40px 40px;
+  }
+  .guideslink a{
+    margin: 0 0 50px 50px;
+    color: blue;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .guideslink a:hover{
+    text-decoration: underline;
+  }
+ img{
+    display: block;
+    margin: auto;
+    width: 60%;
+  }
+  img.formulas{
+    width: auto;
+  }
+  img.answers,  img.smallanswers{
+    background-color: white;
+  }
+  img.smallexamples, img.smallanswers{
+    margin-top: 0;
+    display: none;
+  }
+  #displayansbutton{
+    text-align: center;
+    padding: 12px 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: auto;
+    background-color: rgb(253, 173, 2);
+    font-size: 18px;
+    border: none;
+    display: block;
+  }
+  #displayansbutton:hover{
+    cursor: pointer;
+  }
+
+span.note{
+  color: rgb(0, 255, 115);
+}
+.hidden {
+  display: none;
+}.rules ul li {
+  list-style: circle;
+}
+@media (max-width:940px){
+    label.logo{
+        padding-left: 20px;
+    }
+    a.logo{
+        padding-left: 40px;
+    }
+    .column {
+        width: 90%;
+        margin: 40px;
+      }
+    .about{
+        display: none;
+    }
+    img{
+        display: block;
+    }
+    div.container,div.smallertext{
+        display: block;
+    }
+    .smallertext{
+        margin-top: 100px;
+    }
+    h1.pages{
+      margin: auto;
+      margin-top: 75px;
+      text-align: center;
+    }
+    h1.guides{
+      margin: auto;
+      margin-top: 75px;
+      text-align: center;
+    }
+    .option {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+    .optionlinks{
+    margin-top: 100px;
+    margin-bottom:150px;
+    }
+    .optionlinks1{
+      margin-bottom: 0;
+    }
+    .topiclinks{
+      width: 100%;
+    }
+    .topiclinks h2{
+      margin: 100px auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+    .topiclinks a{
+      text-align: center;
+      width: auto;
+    }
+    .guideslink{ 
+      margin-top: 50px;
+    }
+    .guideinfo{
+      text-align: center;
+    }
+    #displayansbutton{
+      display: none;
+    }
+    img.smallexamples,img.smallanswers{ 
+      display: block;
+    }
+    img.examples,img.answers{
+      display: none;
+    }
+}
+@media(max-width:1200px){
+    .checkbutton{
+        display: block;
+    }
+    ul{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 2s;
+}
+nav ul li,#searchtext{
+    display: block;
+    margin: 0;
+    line-height: 60px;
+}
+
+#searchicon{
+    display: none;
+}
+nav ul li a,#searchtext{
+    font-size: 21px;
+}
+nav ul li a:hover,#searchtext:hover{
+    color:rgb(148, 148, 148);
+}
+#check:checked~ul{
+left: 0;
+}
+}
