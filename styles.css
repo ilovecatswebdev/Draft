@@ -413,7 +413,7 @@ nav ul li a:hover,#searchtext:hover{
 left: 0;
 }
 }
-@media(max-width:500px){
+@media(max-width:300px){
     a.logo{
 display:hidden;
     }
