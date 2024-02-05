@@ -415,6 +415,6 @@ left: 0;
 }
 @media(max-width:100px){
     a.logo{
-display:hidden;
+display:none;
     }
 }
