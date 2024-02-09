@@ -416,4 +416,8 @@ left: 0;
     label.logo{
 display:none;
     }
+    .column {
+        height:350px;
+  
+    }
 }
