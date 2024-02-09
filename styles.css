@@ -357,6 +357,7 @@ left: 0;
     }
     div.container,div.smallertext{
         display: block;
+        height:900px;
         margin:auto;
     }
     .smallertext{
@@ -417,7 +418,7 @@ left: 0;
 display:none;
     }
     .column {
-        height:350px;
+        height:375px;
   
     }
 }
