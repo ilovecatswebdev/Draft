@@ -359,9 +359,9 @@ left: 0;
         display: block;
         margin:auto;
     }
-    .smallertext{
+    div.smallertext{
         margin-top: 100px;
-        height:500px;
+        height:550px;
     }
     h1.pages{
       margin: auto;
