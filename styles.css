@@ -100,7 +100,7 @@ div.about{
     display: none;
   } 
   div.smallertext{
-    height: 50%;
+    height: 300px;
     margin-top: 200px;
     width: 100%;
     background-color: rgb(54, 54, 54);
