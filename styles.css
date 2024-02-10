@@ -55,11 +55,7 @@ nav ul li a{
     font-size:17px;
     padding: 7px 13px;
 }
-#searchtext{
-    color:black;
-    font-size: 17px;
-    display: none;
-}
+
 nav ul li a:hover{
     color:rgb(148, 148, 148);
 }
@@ -104,9 +100,8 @@ div.about{
     display: none;
   } 
   div.smallertext{
-    height: 450px;
-    margin-top: 175px;
-    margin-bottom: 175px;
+    height: 50%;
+    margin-top: 200px;
     width: 100%;
     background-color: rgb(54, 54, 54);
     text-align: center;
