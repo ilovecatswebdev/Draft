@@ -408,6 +408,7 @@ display:none;
         height:375px;
     }
     div.smallertext{
-        height:500px;
+        height:525px;
+        border-radius:0 0 25px 25px;
     }
 }
