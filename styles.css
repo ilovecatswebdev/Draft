@@ -87,7 +87,7 @@ div.about{
   }
   div.container{
     background-image: url(Untitled\ design\ \(1\).png);
-    height: 800px;
+    height: 700px;
     width: 90%;
     margin-left: 40px;
     margin-right: 40px;
@@ -101,7 +101,6 @@ div.about{
     text-align: center;
     padding: 50px;
     display: none;
-    margin-bottom: 200px;
   }
 
   h1.description{
