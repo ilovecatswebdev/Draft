@@ -95,7 +95,7 @@ div.about{
     display: none;
   } 
   div.smallertext{
-    height: 425px;
+    height: 450px;
     width: 100%;
     background-color: rgb(54, 54, 54);
     text-align: center;
@@ -408,6 +408,6 @@ display:none;
         height:375px;
     }
     div.smallertext{
-        height:600px;
+        height:500px;
     }
 }
