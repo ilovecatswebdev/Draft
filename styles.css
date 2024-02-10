@@ -105,6 +105,8 @@ div.about{
   } 
   div.smallertext{
     height: 450px;
+    margin-top: 175px;
+    margin-bottom: 175px;
     width: 100%;
     background-color: rgb(54, 54, 54);
     text-align: center;
@@ -359,10 +361,6 @@ left: 0;
         display: block;
         margin:auto;
     }
-    div.smallertext{
-        margin-top: 100px;
-        height:550px;
-    }
     h1.pages{
       margin: auto;
       margin-top: 75px;
@@ -419,6 +417,10 @@ display:none;
     }
     .column {
         height:375px;
-  
+    }
+    div.smallertext{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height:600px;
     }
 }
