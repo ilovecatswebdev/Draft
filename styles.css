@@ -415,8 +415,7 @@ display:none;
     }
      .topiclinks a{
          font-size:18px;
-    padding-right:10px;
-         padding-left:0px;
+         padding-left:-100px;
     }
     
 }
