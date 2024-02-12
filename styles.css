@@ -384,7 +384,8 @@ left: 0;
     .topiclinks a{
       text-align: center;
       width: auto;
-    padding-left:100px;
+        margin:auto;
+    padding-left:200px;
     }
     .guideslink{ 
       margin-top: 50px;
@@ -414,8 +415,8 @@ display:none;
         border-radius:0 0 25px 25px;
     }
      .topiclinks a{
-         font-size:18px;
-         padding-left:-200px;
+         font-size:15px;
+         padding-left:0px;
     }
     
 }
