@@ -283,6 +283,8 @@ div.about{
     text-decoration: none;
     border-radius: 25px;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     background-color: rgb(253, 173, 2);
     font-size: 18px;
     border: none;
@@ -378,7 +380,7 @@ left: 0;
     .topiclinks h2{
       margin: 100px auto;
       margin-top: 50px;
-      margin-bottom: 50px;
+      margin-bottom: 25px;
       text-align: center;
     }
     .topiclinks a{
