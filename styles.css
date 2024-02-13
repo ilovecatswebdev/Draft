@@ -68,8 +68,6 @@ nav ul li a:hover{
 .background{
   margin:25px;
   font-family: Arial, Helvetica, sans-serif;
-
-
 }
 div.about{
     background-image: url(Untitled\ design\ \(1\).png);
@@ -182,12 +180,12 @@ div.about{
     text-decoration: none;
     border-radius: 25px;
     margin: 15px auto;
-    background-color: rgb(69, 69, 70);
+    background-color: rgb(97, 97, 97);
     font-size: 18px;
     float: none;
   }
   a.feature:hover{
-    background-color: rgb(110, 110, 110);
+    background-color: rgb(112, 111, 111);
   }
   .option {
     display: -webkit-flex;
